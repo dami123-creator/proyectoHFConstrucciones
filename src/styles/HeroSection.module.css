@@ -1,0 +1,103 @@
+.hero {
+    position: relative; /* Agrega esto para que el elemento "colorOverlay" se posicione correctamente */
+    max-width: 100%;
+
+    height: 800px;
+    background-image:linear-gradient(#1b1b1ba1,  rgba(10, 25, 233, 0.863)) ,url(/png.constructora/fondo2.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+  }
+  .text_left {
+    animation: left 1s forwards;
+  }
+  
+  @keyframes left {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+.img_hero{
+  
+    filter: drop-shadow(0 2px 2px rgb(0, 0, 0) );
+
+  }
+
+  .svg_hero {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ .colorOverlay, .text , .hero .img{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .hero {
+    /* Agrega esto para que el elemento "colorOverlay" se posicione correctamente */
+      max-width: 100%;
+      overflow-x: hidden;
+      margin-bottom: 60px; 
+     
+     
+    }
+   
+    
+  
+    .colorOverlay {
+      display: flex;
+      position: absolute;
+      top: 0;
+      align-items: center;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      background-color: rgba(10, 25, 233, 0.603);
+      transform-origin: top right;
+      transform: skew(-25deg);
+    }
+  
+  
+    .hero .img {
+      margin-left: 8rem;
+      margin-top: 12rem;
+      filter: drop-shadow(0 2px 2px rgba(10, 25, 233, 0.603) );
+      width: 40%;
+      
+    }
+
+    .hero h1{
+      font-size: 2rem;
+      font-style:initial;
+      margin-left: 30rem; 
+      filter: drop-shadow(0 2px 2px rgb(0, 0, 0) );
+    }
+  }
+
+  /* .colorOverlay h1 {
+    color: #fff;
+   
+    font-weight: bold;
+  } */
