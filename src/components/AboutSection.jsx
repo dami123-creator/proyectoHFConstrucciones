@@ -43,13 +43,13 @@ export default function AboutSection() {
           <animated.img
             style={imageProps}
             className="w-full rounded-lg shadow-xl"
-            src="/obra1/exterior1.jpg"
+            src="/obra1/people.jpg"
             alt="office content 1"
           />
           <img
             style={imageProps}
             className="mt-4 w-full lg:mt-10 rounded-lg shadow-xl"
-            src="/obra1/exterior2.jpg"
+            src="/obra1/prueba.jpg"
             alt="office content 2"
           />
         </div>

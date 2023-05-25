@@ -1,5 +1,6 @@
 
 import NavBar from "../../components/NavBar";
+import Form from "../../components/Form";
 import Footer from "../../components/Footer";
 import React from "react";
 
@@ -87,6 +88,7 @@ const Index = () => {
     <>
       <NavBar />
       <ObrasList obras={Obras} />
+      <Form/>
       <Footer/>
     </>
   );
