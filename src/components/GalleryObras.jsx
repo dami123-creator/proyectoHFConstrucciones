@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+
 const images = [
   {
     original: "/obra1/embajada.jpg",
@@ -44,11 +45,9 @@ const images = [
 ];
 function GalleryObras() {
   return (
-    <div
-      className="container mx-auto px-2 gallery-wrapper"
-      style={{ maxWidth: "40%", maxHeight: "50px" }}
-    >
-      <h1 className="text-center">Trabajos</h1>
+    <div className="container mx-auto px-4 py-8">
+    <h1 className="text-center text-2xl font-semibold mb-4">Galeria</h1>
+    <div className="max-w-md mx-auto">
       <ImageGallery
         items={images}
         thumbnailPosition="bottom"
@@ -56,11 +55,11 @@ function GalleryObras() {
         showPlayButton={false}
         useBrowserFullscreen={false}
         renderItem={(item) => (
-          <div className="w-full h-full">
+          <div className="w-full max-h-83 overflow-hidden">
             <img
               src={item.original}
               alt={item.alt}
-              className="w-full h-auto filter"
+              className="w-full h-auto"
             />
           </div>
         )}
@@ -68,11 +67,12 @@ function GalleryObras() {
           <img
             src={item.thumbnail}
             alt={item.alt}
-            className="w-full h-auto filter blur-sm hover:blur-none"
+            className="w-full h-auto"
           />
         )}
       />
     </div>
+  </div>
   );
 }
 

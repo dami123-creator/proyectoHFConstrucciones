@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar";
 import Form from "../../components/Form";
 import Footer from "../../components/Footer";
 import React from "react";
-
+import GalleryObras from "../../components/GalleryObras";
 
 const Obras = [
   {
@@ -78,6 +78,7 @@ const ObrasList = ({ obras }) => {
     </article>
   ))}
 </div>
+ 
 
 
 
@@ -93,7 +94,12 @@ const Index = () => {
     <>
       <NavBar />
       <ObrasList obras={Obras} />
-      <Form/>
+      <div
+        className="flex items-center text-4xl justify-center my-8"
+        style={{ minHeight: "500px" }}
+      >
+        <GalleryObras />
+      </div>
       <Footer/>
     </>
   );

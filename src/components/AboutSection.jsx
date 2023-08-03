@@ -49,7 +49,7 @@ export default function AboutSection() {
           <img
             style={imageProps}
             className="mt-4 w-full lg:mt-10 rounded-lg shadow-xl"
-            src="/obra1/prueba.jpg"
+            src="/obra1/prueba2.jpg"
             alt="office content 2"
           />
         </div>
