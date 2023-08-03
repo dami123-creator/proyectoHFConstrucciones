@@ -48,6 +48,11 @@ const Obras = [
 
       img: "/obras/2.jpg"
   },
+  {
+    name: "S.O.M.U",
+    descripcion: "Construccion de quincho 100% equipado para sindicato obrero maritimo unido",
+    img: "/works2023/quincho1.jpg"
+  }
 ];
 const ObrasList = ({ obras }) => {
   return (
