@@ -42,37 +42,81 @@ const images = [
     alt: "exterior3",
     thumbnail: "/obra1/exterior3.jpg",
   },
+  {
+    original: "/works2023/1.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/1.jpg",
+  },
+  {
+    original: "/works2023/2.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/2.jpg",
+  },
+  {
+    original: "/works2023/3.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/3.jpg",
+  },
+  {
+    original: "/works2023/4.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/4.jpg",
+  },
+  {
+    original: "/works2023/5.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/5.jpg",
+  },
+  {
+    original: "/works2023/6.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/6.jpg",
+  },
+  {
+    original: "/works2023/7.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/7.jpg",
+  },
+  {
+    original: "/works2023/8.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/8.jpg",
+  },
+  {
+    original: "/works2023/9.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/9.jpg",
+  },
+  {
+    original: "/works2023/10.jpg",
+    alt: "trabajos2023",
+    thumbnail: "/works2023/10.jpg",
+  }
 ];
 function GalleryObras() {
   return (
     <div className="container mx-auto px-4 py-8">
-    <h1 className="text-center text-2xl font-semibold mb-4">Galeria</h1>
-    <div className="max-w-md mx-auto">
-      <ImageGallery
-        items={images}
-        thumbnailPosition="bottom"
-        showFullscreenButton={false}
-        showPlayButton={false}
-        useBrowserFullscreen={false}
-        renderItem={(item) => (
-          <div className="w-full max-h-83 overflow-hidden">
-            <img
-              src={item.original}
-              alt={item.alt}
-              className="w-full h-auto"
-            />
-          </div>
-        )}
-        renderThumbInner={(item) => (
-          <img
-            src={item.thumbnail}
-            alt={item.alt}
-            className="w-full h-auto"
-          />
-        )}
-      />
+      <h1 className="text-center text-2xl font-semibold mb-4">Trabajos</h1>
+      <div className="max-w-md mx-auto" style={{ height: "600px" }}>
+        <ImageGallery
+          items={images}
+          thumbnailPosition="bottom"
+          showFullscreenButton={false}
+          showPlayButton={false}
+          useBrowserFullscreen={false}
+          showThumbnails={false} // Oculta las miniaturas
+          renderItem={(item) => (
+            <div className="w-full h-full">
+              <img
+                src={item.original}
+                alt={item.alt}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+        />
+      </div>
     </div>
-  </div>
   );
 }
 

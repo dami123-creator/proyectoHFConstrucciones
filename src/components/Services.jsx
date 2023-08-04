@@ -44,7 +44,7 @@ export default function Services() {
     },
     {
       title: "Obras Viales y Demoliciones",
-      description: "movimiento de suelo, pavimentos de hormigon",
+      description: "movimiento de suelo, pavimentos de hormigon, cortes de pasto en rutas",
       image: image3
     },
     {

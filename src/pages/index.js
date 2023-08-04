@@ -13,17 +13,10 @@ export default function Home() {
     <>
       <NavBar />
       <HeroSection />
-
       <AboutSection />
       <Services />
       <Clients />
       <Wsp />
-      {/* <div
-        className="flex items-center text-4xl justify-center my-8"
-        style={{ minHeight: "500px" }}
-      >
-        <GalleryObras />
-      </div> */}
       <Form />
       <Footer />
     </>
