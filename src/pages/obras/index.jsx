@@ -52,6 +52,11 @@ const Obras = [
     name: "S.O.M.U",
     descripcion: "Construccion de quincho 100% equipado para sindicato obrero maritimo unido",
     img: "/works2023/quincho1.jpg"
+  },
+  {
+    name: "Vialidad",
+    descripcion:"Servicio de ejecucion, mantenimientos de corte de pasto, demalezado y contrafuego. Bahia Blanca, Rio Negro, Santa Fe, Chaco y Salta",
+    img: "/works2023/cortedepasto/perfil.jpg"
   }
 ];
 const ObrasList = ({ obras }) => {

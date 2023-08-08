@@ -7,91 +7,122 @@ const images = [
   {
     original: "/obra1/embajada.jpg",
     alt: "embajada",
-    thumbnail: "/obra1/embajada.jpg",
     description: "Embajada de Portugal",
   },
   {
     original: "/obra1/exterior1.jpg",
     alt: "exterior1",
-    thumbnail: "/obra1/exterior1.jpg",
   },
   {
     original: "/obra1/exterior1.2.jpg",
     alt: "exterior1.2",
-    thumbnail: "/obra1/exterior1.2.jpg",
   },
   {
     original: "/obra1/exterior1.3.jpg",
     alt: "exterior1",
-    thumbnail: "/obra1/exterior1.3.jpg",
   },
 
   {
     original: "/obra1/exterior2.jpg",
     alt: "exterior2",
-    thumbnail: "/obra1/exterior2.jpg",
   },
 
   {
     original: "/obra1/exterior4.png",
     alt: "exterior4",
-    thumbnail: "/obra1/exterior4.png",
   },
   {
     original: "/obra1/exterior3.jpg",
     alt: "exterior3",
-    thumbnail: "/obra1/exterior3.jpg",
   },
   {
     original: "/works2023/1.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/1.jpg",
   },
   {
     original: "/works2023/2.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/2.jpg",
   },
   {
     original: "/works2023/3.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/3.jpg",
   },
   {
     original: "/works2023/4.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/4.jpg",
   },
   {
     original: "/works2023/5.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/5.jpg",
   },
   {
     original: "/works2023/6.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/6.jpg",
   },
   {
     original: "/works2023/7.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/7.jpg",
   },
   {
     original: "/works2023/8.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/8.jpg",
   },
   {
     original: "/works2023/9.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/9.jpg",
   },
   {
     original: "/works2023/10.jpg",
     alt: "trabajos2023",
-    thumbnail: "/works2023/10.jpg",
-  }
+  },
+  {
+    original: "/works2023/cortedepasto/1.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/2.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/3.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/4.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/5.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/6.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/7.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/8.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/9.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/10.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/11.jpg",
+    alt: "cortedepasto",
+  },
+  {
+    original: "/works2023/cortedepasto/12.jpg",
+    alt: "cortedepasto",
+  },
 ];
 function GalleryObras() {
   return (
